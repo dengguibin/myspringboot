@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/aop-learn" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mq/activemq/sender" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mq/activemq/spring-boot-sample-activemq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis/crud" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis/mybatis-generator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis/mybatis-multitable" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security-login-db" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-thymeleaf" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springbootRedis" charset="UTF-8" />
+  </component>
+</project>

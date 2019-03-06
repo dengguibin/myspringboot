@@ -1,0 +1,1149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9d0c2e37-4869-40c1-a97c-628eb349db8d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mq/activemq/spring-boot-sample-activemq/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mq/activemq/spring-boot-sample-activemq/src/main/java/sample/activemq/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mq/activemq/spring-boot-sample-activemq/src/main/java/sample/activemq/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mq/activemq/spring-boot-sample-activemq/src/main/java/sample/activemq/SampleActiveMQApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mq/activemq/spring-boot-sample-activemq/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mq/activemq/spring-boot-sample-activemq/src/test/java/sample/activemq/SampleActiveMqTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mq/activemq/spring-boot-sample-activemq/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mq/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/crud/src/main/java/com/lshjy/crud/service/TestDBLockService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/mybatis-generator/src/test/java/com/lshjy/mybatisgenerator/MybatisGeneratorApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop-learn/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/aop-learn/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop-learn/src/main/java/com/lshjy/aoplearn/aspect/MyAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/aop-learn/src/main/java/com/lshjy/aoplearn/aspect/MyAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop-learn/src/main/java/com/lshjy/aoplearn/aspect/WebLogAop.java" beforeDir="false" afterPath="$PROJECT_DIR$/aop-learn/src/main/java/com/lshjy/aoplearn/aspect/WebLogAop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop-learn/src/main/java/com/lshjy/aoplearn/controller/MyProjectc.java" beforeDir="false" afterPath="$PROJECT_DIR$/aop-learn/src/main/java/com/lshjy/aoplearn/controller/MyProjectc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-memory/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/crud/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-memory/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/crud/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-memory/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/crud/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-memory/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/crud/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-memory/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/crud/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-memory/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/crud/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-memory/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-memory/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-memory/src/main/java/com/lshjy/crudmemory/CrudMemoryApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-memory/src/main/java/com/lshjy/crudmemory/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-memory/src/main/java/com/lshjy/crudmemory/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-memory/src/main/java/com/lshjy/crudmemory/service/UserRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-memory/src/main/java/com/lshjy/crudmemory/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-memory/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-memory/src/main/resources/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/crud/src/main/resources/static/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-memory/src/main/resources/templates/user/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/crud/src/main/resources/templates/user/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-memory/src/main/resources/templates/user/userAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/crud/src/main/resources/templates/user/userAdd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-memory/src/main/resources/templates/user/userEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/crud/src/main/resources/templates/user/userEdit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-memory/src/test/java/com/lshjy/crudmemory/CrudMemoryApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-generator/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-generator/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-generator/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-generator/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/crudthyme.sql" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/crud/crudthyme.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-generator/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-generator/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/crud/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/crud/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/src/main/java/com/lshjy/crud/CrudApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/crud/src/main/java/com/lshjy/crud/CrudApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/src/main/java/com/lshjy/crud/controller/TransactionTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/crud/src/main/java/com/lshjy/crud/controller/TransactionTestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/src/main/java/com/lshjy/crud/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/crud/src/main/java/com/lshjy/crud/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/src/main/java/com/lshjy/crud/controller/UserOriginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/crud/src/main/java/com/lshjy/crud/controller/UserOriginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/src/main/java/com/lshjy/crud/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/crud/src/main/java/com/lshjy/crud/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/src/main/java/com/lshjy/crud/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/crud/src/main/java/com/lshjy/crud/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/src/main/java/com/lshjy/crud/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/crud/src/main/java/com/lshjy/crud/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/src/main/java/com/lshjy/crud/service/UserServiceOrigin.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/crud/src/main/java/com/lshjy/crud/service/UserServiceOrigin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/src/main/java/com/lshjy/crud/service/UserServiceOriginImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/crud/src/main/java/com/lshjy/crud/service/UserServiceOriginImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/src/main/java/com/lshjy/crud/service/impl/UserRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/crud/src/main/java/com/lshjy/crud/service/impl/UserRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/src/main/java/com/lshjy/crud/service_transaction/TransactionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/crud/src/main/java/com/lshjy/crud/service_transaction/TransactionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/crud/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/src/main/resources/mapping/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/crud/src/main/resources/mapping/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/src/main/resources/static/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/src/main/resources/templates/user/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/src/main/resources/templates/user/userAdd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/src/main/resources/templates/user/userEdit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/src/test/java/com/lshjy/crud/CrudApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/crud/src/test/java/com/lshjy/crud/CrudApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-multitable/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-multitable/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-multitable/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-multitable/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator/crudthyme.sql" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-generator/crudthyme.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-multitable/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-multitable/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-generator/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-generator/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator/src/main/java/com/lshjy/mybatisgenerator/MybatisGeneratorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-generator/src/main/java/com/lshjy/mybatisgenerator/MybatisGeneratorApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator/src/main/java/com/lshjy/mybatisgenerator/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-generator/src/main/java/com/lshjy/mybatisgenerator/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator/src/main/java/com/lshjy/mybatisgenerator/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-generator/src/main/java/com/lshjy/mybatisgenerator/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator/src/main/java/com/lshjy/mybatisgenerator/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-generator/src/main/java/com/lshjy/mybatisgenerator/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator/src/main/java/com/lshjy/mybatisgenerator/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-generator/src/main/java/com/lshjy/mybatisgenerator/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator/src/main/java/com/lshjy/mybatisgenerator/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-generator/src/main/java/com/lshjy/mybatisgenerator/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-generator/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator/src/main/resources/generator/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-generator/src/main/resources/generator/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator/src/main/resources/mapping/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-generator/src/main/resources/mapping/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator/src/test/java/com/lshjy/mybatisgenerator/MybatisGeneratorApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-multitable/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-multitable/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-multitable/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-multitable/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-multitable/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-multitable/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-multitable/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-multitable/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-multitable/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-multitable/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-multitable/src/main/java/com/lshjy/mybatismultitable/MybatisMultitableApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-multitable/src/main/java/com/lshjy/mybatismultitable/MybatisMultitableApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-multitable/src/main/java/com/lshjy/mybatismultitable/bean/Diary.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-multitable/src/main/java/com/lshjy/mybatismultitable/bean/Diary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-multitable/src/main/java/com/lshjy/mybatismultitable/bean/Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-multitable/src/main/java/com/lshjy/mybatismultitable/bean/Tag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-multitable/src/main/java/com/lshjy/mybatismultitable/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-multitable/src/main/java/com/lshjy/mybatismultitable/bean/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-multitable/src/main/java/com/lshjy/mybatismultitable/controller/DiaryMappingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-multitable/src/main/java/com/lshjy/mybatismultitable/controller/DiaryMappingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-multitable/src/main/java/com/lshjy/mybatismultitable/mapper/DiaryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-multitable/src/main/java/com/lshjy/mybatismultitable/mapper/DiaryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-multitable/src/main/java/com/lshjy/mybatismultitable/mapper/TagMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-multitable/src/main/java/com/lshjy/mybatismultitable/mapper/TagMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-multitable/src/main/java/com/lshjy/mybatismultitable/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-multitable/src/main/java/com/lshjy/mybatismultitable/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-multitable/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-multitable/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-multitable/src/main/resources/mapper/diaryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-multitable/src/main/resources/mapper/diaryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-multitable/src/main/resources/mapper/tagMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-multitable/src/main/resources/mapper/tagMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-multitable/src/main/resources/mapper/userMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-multitable/src/main/resources/mapper/userMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-multitable/src/test/java/com/lshjy/mybatismultitable/MybatisMultitableApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-multitable/src/test/java/com/lshjy/mybatismultitable/MybatisMultitableApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-multitable/weibo.sql" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybatis-multitable/weibo.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-thymeleaf/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-thymeleaf/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootRedis/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/springbootRedis/README.md" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/mybatis-generator/target/" />
+    <ignored path="$PROJECT_DIR$/basics/target/" />
+    <ignored path="$PROJECT_DIR$/maven-config/target/" />
+    <ignored path="$PROJECT_DIR$/thymeleaf-learn/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-thymeleaf/target/" />
+    <ignored path="$PROJECT_DIR$/crud/target/" />
+    <ignored path="$PROJECT_DIR$/mybatis-multitable/target/" />
+    <ignored path="$PROJECT_DIR$/crud-memory/target/" />
+    <ignored path="$PROJECT_DIR$/security-login-db/target/" />
+    <ignored path="$PROJECT_DIR$/redis-learn/target/" />
+    <ignored path="$PROJECT_DIR$/springbootRedis/target/" />
+    <ignored path="$PROJECT_DIR$/aop-learn/target/" />
+    <ignored path="$PROJECT_DIR$/activmq/target/" />
+    <ignored path="$PROJECT_DIR$/activemq/target/" />
+    <ignored path="$PROJECT_DIR$/activemq/dd/target/" />
+    <ignored path="$PROJECT_DIR$/activemq/demo/target/" />
+    <ignored path="$PROJECT_DIR$/activemq/queue/target/" />
+    <ignored path="$PROJECT_DIR$/activemq/topic/target/" />
+    <ignored path="$PROJECT_DIR$/parent1/target/" />
+    <ignored path="$PROJECT_DIR$/parent1/parent2/target/" />
+    <ignored path="$PROJECT_DIR$/parent1/parent2/demo/target/" />
+    <ignored path="$PROJECT_DIR$/mybatis/target/" />
+    <ignored path="$PROJECT_DIR$/mybatis/mybatis-generator/target/" />
+    <ignored path="$PROJECT_DIR$/mq/target/" />
+    <ignored path="$PROJECT_DIR$/mq/activemq/target/" />
+    <ignored path="$PROJECT_DIR$/mq/activemq/queue/target/" />
+    <ignored path="$PROJECT_DIR$/mq/activemq/topic/target/" />
+    <ignored path="$PROJECT_DIR$/mq/activemq/queue/sender/target/" />
+    <ignored path="$PROJECT_DIR$/mq/activemq/queue/consumer/target/" />
+    <ignored path="$PROJECT_DIR$/mq/activemq/producer/target/" />
+    <ignored path="$PROJECT_DIR$/mq/activemq/spring-boot-sample-activemq/target/" />
+    <ignored path="$PROJECT_DIR$/mq/activemq/sender/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/com/Demo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../src/java/util/HashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-126">
+              <caret line="681" column="25" selection-start-line="681" selection-start-column="25" selection-end-line="681" selection-end-column="25" />
+              <folding>
+                <element signature="e#24298#24299#0" expanded="true" />
+                <element signature="e#24363#24364#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Singleton" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>select</find>
+      <find>pagehe</find>
+      <find>com</find>
+      <find>demo</find>
+      <find>updateByPrimaryKeySelective</find>
+      <find>getmapping</find>
+      <find>Druid</find>
+      <find>restf</find>
+      <find>分页</find>
+      <find>b=</find>
+      <find>treenode</find>
+      <find>transient</find>
+      <find>keySet</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/crud/src/main/java/com/lshjy/crud/controller/UserOriginController.java" />
+        <option value="$PROJECT_DIR$/mybatis-generator/src/test/java/com/lshjy/mybatisgenerator/MybatisGeneratorApplicationTests.java" />
+        <option value="$PROJECT_DIR$/crud/src/main/java/com/lshjy/crud/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/crud/src/main/java/com/lshjy/crud/CrudApplication.java" />
+        <option value="$PROJECT_DIR$/crud/src/main/java/com/lshjy/crud/service/TestDBLockService.java" />
+        <option value="$PROJECT_DIR$/crud/src/test/java/com/lshjy/crud/CrudApplicationTests.java" />
+        <option value="$PROJECT_DIR$/crud/src/main/java/com/lshjy/crud/service_transaction/TransactionService.java" />
+        <option value="$PROJECT_DIR$/aop-learn/src/main/java/com/lshjy/aoplearn/cglib/ParentClasses.java" />
+        <option value="$PROJECT_DIR$/aop-learn/src/main/java/com/lshjy/aoplearn/cglib/CglibProxy.java" />
+        <option value="$PROJECT_DIR$/aop-learn/src/main/java/com/lshjy/aoplearn/regexlearn/Test.java" />
+        <option value="$PROJECT_DIR$/aop-learn/pom.xml" />
+        <option value="$PROJECT_DIR$/aop-learn/src/main/java/com/lshjy/aoplearn/regexlearn/WebLogAop.java" />
+        <option value="$PROJECT_DIR$/aop-learn/src/main/java/com/lshjy/aoplearn/service/ForumService.java" />
+        <option value="$PROJECT_DIR$/aop-learn/src/main/java/com/lshjy/aoplearn/service/ArgsTestService.java" />
+        <option value="$PROJECT_DIR$/aop-learn/src/main/java/com/lshjy/aoplearn/annotation/Monitorable.java" />
+        <option value="$PROJECT_DIR$/aop-learn/src/main/java/com/lshjy/aoplearn/service/NaughtyWaiter.java" />
+        <option value="$PROJECT_DIR$/aop-learn/src/main/java/com/lshjy/aoplearn/service/NativeWaiter.java" />
+        <option value="$PROJECT_DIR$/aop-learn/src/main/java/com/lshjy/aoplearn/service/NativeSonWaiter.java" />
+        <option value="$PROJECT_DIR$/aop-learn/src/main/java/com/lshjy/aoplearn/service/WaiterManager.java" />
+        <option value="$PROJECT_DIR$/aop-learn/src/main/java/com/lshjy/aoplearn/annotation/NeedTest.java" />
+        <option value="$PROJECT_DIR$/aop-learn/src/main/java/com/lshjy/aoplearn/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/aop-learn/src/test/java/com/lshjy/aoplearn/AopLearnApplicationTests.java" />
+        <option value="$PROJECT_DIR$/aop-learn/src/main/java/com/lshjy/aoplearn/aspect/AgsAspect.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/aop-learn/src/main/java/com/lshjy/aoplearn/aspect/WebLogAop.java" />
+        <option value="$PROJECT_DIR$/aop-learn/src/main/java/com/lshjy/aoplearn/controller/MyProjectc.java" />
+        <option value="$PROJECT_DIR$/aop-learn/src/main/java/com/lshjy/aoplearn/aspect/ExceptionAspect.java" />
+        <option value="$PROJECT_DIR$/aop-learn/src/main/java/com/lshjy/aoplearn/aspect/MyAspect.java" />
+        <option value="$PROJECT_DIR$/aop-learn/readme.md" />
+        <option value="$PROJECT_DIR$/crud/readme.md" />
+        <option value="$PROJECT_DIR$/mybatis-multitable/readme.md" />
+        <option value="$PROJECT_DIR$/springboot-thymeleaf/readme.md" />
+        <option value="$PROJECT_DIR$/springbootRedis/README.md" />
+        <option value="$PROJECT_DIR$/activemq/pom.xml" />
+        <option value="$PROJECT_DIR$/parent1/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis/mybatis-multitable/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/mq/pom.xml" />
+        <option value="$PROJECT_DIR$/mq/activemq/pom.xml" />
+        <option value="$PROJECT_DIR$/mq/activemq/queue/sender/src/main/java/com/lshjy/mq/activemq/queue/sender/messageEntity/Msg.java" />
+        <option value="$PROJECT_DIR$/mq/activemq/queue/consumer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/mq/activemq/queue/consumer/src/main/java/com/lshjy/mq/activemq/queue/consumer/Consumer.java" />
+        <option value="$PROJECT_DIR$/mq/activemq/queue/sender/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/mq/activemq/queue/sender/src/main/java/com/lshjy/mq/activemq/queue/sender/SenderApplication.java" />
+        <option value="$PROJECT_DIR$/mq/activemq/queue/sender/src/main/java/com/lshjy/mq/activemq/queue/sender/service/Producer.java" />
+        <option value="$PROJECT_DIR$/mq/readme.md" />
+        <option value="$PROJECT_DIR$/mq/activemq/producer/pom.xml" />
+        <option value="$PROJECT_DIR$/mq/activemq/producer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/mq/activemq/spring-boot-sample-activemq/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/src/com/Demo.java" />
+        <option value="$PROJECT_DIR$/../src/java/util/HashMap.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\developDistributed\tools\maven\repo" />
+        <option name="mavenHome" value="D:/developDistributed/tools/maven/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\developDistributed\tools\maven\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551712712987" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../src" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.28735632" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.shjy.basics" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaprojects\myspringboot\mq\activemq" />
+      <recent name="D:\ideaprojects\mybatisthyme" />
+      <recent name="D:\ideaprojects\mybatisthyme\crud\src\main\resources\templates\user" />
+      <recent name="D:\ideaprojects\mybatisthyme\crud-memory\src\main\resources\templates\user" />
+      <recent name="D:\ideaprojects\mybatisthyme\crud-memory\src\main\resources\static\css" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lshjy.crudmemory.service" />
+      <recent name="com.lshjy.crudmemory.model" />
+      <recent name="com.lshjy.mybatismultitable.config" />
+      <recent name="com.lshjy.crud.controller" />
+      <recent name="com.lshjy.crud.config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ideaprojects\mybatisthyme\mybatis" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.20508657" />
+  </component>
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Demo" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForumService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lshjy.aoplearn.service.ForumService" />
+      <module name="aop-learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lshjy.aoplearn.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParentClasses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lshjy.aoplearn.cglib.ParentClasses" />
+      <module name="aop-learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lshjy.aoplearn.cglib.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lshjy.aoplearn.regexlearn.Test" />
+      <module name="aop-learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lshjy.aoplearn.aspect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AopLearnApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aop-learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lshjy.aoplearn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lshjy.aoplearn" />
+      <option name="MAIN_CLASS_NAME" value="com.lshjy.aoplearn.AopLearnApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="generator" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+                <option value="-e" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/mybatis-generator" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="ActivmqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="activmq" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.activmq.ActivmqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AopLearnApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="aop-learn" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lshjy.aoplearn.AopLearnApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="security-login-db" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lshjy.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-thymeleaf" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nfcm.thymeleaf.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lshjy.mq.activemq.queue.consumer.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="crud" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lshjy.crud.CrudApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrudMemoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="crud-memory" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lshjy.crudmemory.CrudMemoryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisGeneratorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatis-generator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lshjy.mybatisgenerator.MybatisGeneratorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisMultitableApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatis-multitable" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lshjy.mybatismultitable.MybatisMultitableApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="producer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lshjy.producer.ProducerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisLearnApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="redis-learn" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lshjy.redislearn.RedisLearnApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleActiveMQApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-sample-activemq" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="sample.activemq.SampleActiveMQApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SenderApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sender" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lshjy.mq.activemq.sender.SenderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SenderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sender" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lshjy.mq.activemq.queue.sender.SenderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ParentClasses" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.ForumService" />
+      <item itemvalue="JUnit.AopLearnApplicationTests.contextLoads" />
+      <item itemvalue="Maven.generator" />
+      <item itemvalue="Spring Boot.MybatisGeneratorApplication" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.CrudApplication" />
+      <item itemvalue="Spring Boot.MybatisMultitableApplication" />
+      <item itemvalue="Spring Boot.CrudMemoryApplication" />
+      <item itemvalue="Spring Boot.Application (1)" />
+      <item itemvalue="Spring Boot.RedisLearnApplication" />
+      <item itemvalue="Spring Boot.AopLearnApplication" />
+      <item itemvalue="Spring Boot.ActivmqApplication" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.SenderApplication" />
+      <item itemvalue="Spring Boot.ConsumerApplication" />
+      <item itemvalue="Spring Boot.ProducerApplication" />
+      <item itemvalue="Spring Boot.SampleActiveMQApplication" />
+      <item itemvalue="Spring Boot.SenderApplication (1)" />
+      <item itemvalue="Application.Demo" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="JUnit.AopLearnApplicationTests.contextLoads" />
+        <item itemvalue="Application.ForumService" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ParentClasses" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d0c2e37-4869-40c1-a97c-628eb349db8d" name="Default Changelist" comment="" />
+      <created>1550277079743</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550277079743</updated>
+      <workItem from="1550277083766" duration="10317000" />
+      <workItem from="1550300685795" duration="2673000" />
+      <workItem from="1550304554925" duration="8226000" />
+      <workItem from="1550364283178" duration="13146000" />
+      <workItem from="1550406719767" duration="997000" />
+      <workItem from="1550407731488" duration="77000" />
+      <workItem from="1550408809138" duration="4283000" />
+      <workItem from="1550449392225" duration="1351000" />
+      <workItem from="1550455252260" duration="5418000" />
+      <workItem from="1550488893985" duration="596000" />
+      <workItem from="1550492818388" duration="825000" />
+      <workItem from="1550535545566" duration="2045000" />
+      <workItem from="1550563091762" duration="7671000" />
+      <workItem from="1550623257598" duration="7922000" />
+      <workItem from="1550649917469" duration="1824000" />
+      <workItem from="1550705693984" duration="586000" />
+      <workItem from="1550706421800" duration="216000" />
+      <workItem from="1550706670894" duration="1839000" />
+      <workItem from="1550711040673" duration="3064000" />
+      <workItem from="1550740915840" duration="6067000" />
+      <workItem from="1550796803075" duration="9977000" />
+      <workItem from="1550836968968" duration="2270000" />
+      <workItem from="1550881711712" duration="16473000" />
+      <workItem from="1550971707121" duration="6562000" />
+      <workItem from="1551054491118" duration="753000" />
+      <workItem from="1551056987050" duration="7836000" />
+      <workItem from="1551092169110" duration="297000" />
+      <workItem from="1551092488895" duration="460000" />
+      <workItem from="1551095126733" duration="631000" />
+      <workItem from="1551097725203" duration="2737000" />
+      <workItem from="1551108501290" duration="30000" />
+      <workItem from="1551701830630" duration="9991000" />
+    </task>
+    <task id="LOCAL-00001" summary="新增springbootRedis项目">
+      <created>1550575428216</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1550575428216</updated>
+    </task>
+    <task id="LOCAL-00002" summary="新增springbootRedis项目">
+      <created>1550575657690</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1550575657690</updated>
+    </task>
+    <task id="LOCAL-00003" summary="格式">
+      <created>1550585335720</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1550585335720</updated>
+    </task>
+    <task id="LOCAL-00004" summary="新增模块 dao-model">
+      <created>1550624854362</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1550624854362</updated>
+    </task>
+    <task id="LOCAL-00005" summary="新增事务测试">
+      <created>1550632601712</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1550632601712</updated>
+    </task>
+    <task id="LOCAL-00006" summary="新增aop模块">
+      <created>1550933900966</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1550933900966</updated>
+    </task>
+    <task id="LOCAL-00007" summary="新增aop模块">
+      <created>1550933984986</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1550933984986</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AopLearnApplicationTests_contextLoads - 2019.02.23 at 20h 13m 36s.xml">
+      <configuration name="AopLearnApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AopLearnApplicationTests_contextLoads - 2019.02.23 at 22h 35m 33s.xml">
+      <configuration name="AopLearnApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AopLearnApplicationTests_contextLoads - 2019.02.23 at 22h 37m 52s.xml">
+      <configuration name="AopLearnApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AopLearnApplicationTests_contextLoads - 2019.02.23 at 22h 38m 38s.xml">
+      <configuration name="AopLearnApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AopLearnApplicationTests_contextLoads - 2019.02.23 at 22h 39m 53s.xml">
+      <configuration name="AopLearnApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AopLearnApplicationTests_contextLoads - 2019.02.23 at 22h 40m 36s.xml">
+      <configuration name="AopLearnApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AopLearnApplicationTests_contextLoads - 2019.02.23 at 22h 41m 44s.xml">
+      <configuration name="AopLearnApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AopLearnApplicationTests_contextLoads - 2019.02.23 at 22h 45m 05s.xml">
+      <configuration name="AopLearnApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AopLearnApplicationTests_contextLoads - 2019.02.23 at 22h 47m 01s.xml">
+      <configuration name="AopLearnApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AopLearnApplicationTests_contextLoads - 2019.02.23 at 22h 48m 41s.xml">
+      <configuration name="AopLearnApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="137160000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15245202" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39599556" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.19466074" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.269188" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32925472" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.19466074" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="BPMNPalette" order="10" />
+      <window_info anchor="right" id="Jms Messenger" order="11" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增springbootRedis项目" />
+    <MESSAGE value="格式" />
+    <MESSAGE value="新增模块 dao-model" />
+    <MESSAGE value="新增事务测试" />
+    <MESSAGE value="新增aop模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增aop模块" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/crud-memory/src/main/java/com/lshjy/crudmemory/controller/UserController.java</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/crud-memory/src/main/java/com/lshjy/crudmemory/controller/UserController.java</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../src/java/util/HashMap.java</url>
+          <line>610</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/activemq/dd/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/activemq/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/activemq/queue/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/activemq/topic/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/activemq/queue/src/main/java/com/lshjy/sender/SenderApplication.java" />
+    <entry file="file://$PROJECT_DIR$/parent1/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/parent1/parent2/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/parent1/parent2/demo/src/main/java/com/example/demo/DemoApplication.java" />
+    <entry file="file://$PROJECT_DIR$/springbootRedis/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="280">
+            <caret line="11" column="25" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/mybatis-generator/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/mybatis-generator/src/main/java/com/lshjy/mybatisgenerator/MybatisGeneratorApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/mybatis-generator/src/main/java/com/lshjy/mybatisgenerator/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/mybatis-multitable/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/mybatis-multitable/src/main/java/com/lshjy/mybatismultitable/MybatisMultitableApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/mybatis-multitable/src/main/java/com/lshjy/mybatismultitable/controller/DiaryMappingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/crud/src/main/java/com/lshjy/crud/CrudApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/crud/src/main/java/com/lshjy/crud/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/mq/activemq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq/activemq/queue/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/mq/activemq/topic/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/mq/activemq/queue/sender/src/main/java/com/lshjy/mq/activemq/queue/sender/messageEntity/Msg.java" />
+    <entry file="file://$PROJECT_DIR$/mq/activemq/queue/consumer/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/mq/activemq/queue/consumer/src/main/java/com/lshjy/mq/activemq/queue/consumer/Consumer.java" />
+    <entry file="file://$PROJECT_DIR$/mq/activemq/queue/consumer/src/main/java/com/lshjy/mq/activemq/queue/consumer/ConsumerApplication.java" />
+    <entry file="file://$PROJECT_DIR$/mq/activemq/queue/sender/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/mq/activemq/queue/sender/src/main/java/com/lshjy/mq/activemq/queue/sender/SenderApplication.java" />
+    <entry file="file://$PROJECT_DIR$/mq/activemq/queue/sender/src/main/java/com/lshjy/mq/activemq/queue/sender/service/Producer.java" />
+    <entry file="file://$PROJECT_DIR$/mq/activemq/producer/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/mq/activemq/producer/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/mq/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="105">
+            <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq/activemq/spring-boot-sample-activemq/src/main/java/sample/activemq/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq/activemq/spring-boot-sample-activemq/src/main/java/sample/activemq/SampleActiveMQApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#1217#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq/activemq/spring-boot-sample-activemq/src/main/java/sample/activemq/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq/activemq/spring-boot-sample-activemq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/mybatis-multitable/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="9" column="13" selection-start-line="4" selection-start-column="4" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq/activemq/spring-boot-sample-activemq/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/developDistributed/tools/jdk1.8/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-thymeleaf/src/main/java/com/nfcm/thymeleaf/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-thymeleaf/src/main/java/com/nfcm/thymeleaf/controller/ThymeleafController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/developDistributed/tools/jdk1.8/jre/lib/rt.jar!/sun/misc/JarIndex.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3745">
+          <caret line="107" column="11" selection-start-line="107" selection-start-column="11" selection-end-line="107" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/developDistributed/tools/jdk1.8/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1905">
+          <caret line="374" column="14" selection-start-line="374" selection-start-column="14" selection-end-line="374" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/developDistributed/tools/jdk1.8/src.zip!/java/util/LinkedHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="191" column="46" selection-start-line="191" selection-start-column="46" selection-end-line="191" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/developDistributed/tools/jdk1.8/src.zip!/java/util/AbstractMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="326" column="28" selection-start-line="326" selection-start-column="28" selection-end-line="326" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/developDistributed/tools/jdk1.8/src.zip!/java/util/AbstractSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4076">
+          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/developDistributed/tools/jdk1.8/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="104" column="11" selection-start-line="104" selection-start-column="11" selection-end-line="104" selection-end-column="11" />
+          <folding>
+            <element signature="e#3740#3741#0" expanded="true" />
+            <element signature="e#3777#3778#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/developDistributed/tools/jdk1.8/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="570" selection-start-line="570" selection-end-line="570" />
+          <folding>
+            <element signature="e#19327#19328#0" expanded="true" />
+            <element signature="e#19410#19411#0" expanded="true" />
+            <element signature="e#24329#24330#0" expanded="true" />
+            <element signature="e#24394#24395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/developDistributed/tools/jdk1.8/jre/lib/rt.jar!/java/util/HashMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="177" column="13" selection-start-line="177" selection-start-column="13" selection-end-line="177" selection-end-column="13" />
+          <folding>
+            <element signature="e#5725#5726#0" expanded="true" />
+            <element signature="e#5796#5797#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/com/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret line="681" column="25" selection-start-line="681" selection-start-column="25" selection-end-line="681" selection-end-column="25" />
+          <folding>
+            <element signature="e#24298#24299#0" expanded="true" />
+            <element signature="e#24363#24364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>springboot-thymeleaf:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28735632" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>activemq</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-core:1.1.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28735632" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

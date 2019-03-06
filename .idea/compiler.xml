@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="aop-learn" />
+        <module name="bootredis" />
+        <module name="mybatis" />
+        <module name="security-login-db" />
+        <module name="springboot-thymeleaf" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="activmq" target="1.8" />
+      <module name="basics" target="1.8" />
+      <module name="consumer" target="1.8" />
+      <module name="crud" target="1.8" />
+      <module name="crud-memory" target="1.8" />
+      <module name="dd" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="mavenconfig" target="1.5" />
+      <module name="mybatis-generator" target="1.8" />
+      <module name="mybatis-multitable" target="1.8" />
+      <module name="mybatisthyme" target="1.5" />
+      <module name="parent1" target="1.5" />
+      <module name="parent2" target="1.5" />
+      <module name="producer" target="1.8" />
+      <module name="queue" target="1.5" />
+      <module name="redis-learn" target="1.8" />
+      <module name="sender" target="1.8" />
+      <module name="spring-boot-sample-activemq" target="1.8" />
+      <module name="thymeleaf-learn" target="1.8" />
+      <module name="topic" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="activmq" options="-parameters" />
+      <module name="aop-learn" options="-parameters" />
+      <module name="basics" options="-parameters" />
+      <module name="consumer" options="-parameters" />
+      <module name="crud" options="-parameters" />
+      <module name="crud-memory" options="-parameters" />
+      <module name="dd" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="mybatis-generator" options="-parameters" />
+      <module name="mybatis-multitable" options="-parameters" />
+      <module name="producer" options="-parameters" />
+      <module name="redis-learn" options="-parameters" />
+      <module name="sender" options="-parameters" />
+      <module name="spring-boot-sample-activemq" options="-parameters" />
+      <module name="thymeleaf-learn" options="-parameters" />
+    </option>
+  </component>
+</project>
